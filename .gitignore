@@ -1,0 +1,94 @@
+# 의존성 (Dependencies)
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js 빌드 결과
+.next/
+out/
+build/
+
+# 환경 변수 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 디버그 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE 및 에디터 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# TypeScript 빌드 정보
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel 배포 설정
+.vercel
+
+# 테스트 커버리지
+coverage/
+.nyc_output/
+
+# Claude Code 로컬 설정 (개인용, 공유 안 함)
+.claude/settings.local.json
+.mcp.json
+
+# 다른 AI 도구 설정 폴더 (.claude/는 유지)
+.agent/
+.agents/
+.cline/
+.codebuddy/
+.codex/
+.commandcode/
+.continue/
+.crush/
+.cursor/
+.factory/
+.gemini/
+.github/
+.goose/
+.kilocode/
+.kiro/
+.mcpjam/
+.mux/
+.neovate/
+.opencode/
+.openhands/
+.pi/
+.qoder/
+.qwen/
+.roo/
+.trae/
+.windsurf/
+.zencoder/
+
+# 임시 파일
+/tmp/
+*.tmp
+
+# 생성된 데모 프로젝트 (demos는 별도 관리)
+*-demo/
+demos/
+
+# 스크립트 실행 부산물 (Script artifacts)
+screenshots/
+mobile-validation-report/
+references/
+dist/
+bundle.html
+.parcelrc
+.parcel-cache/
