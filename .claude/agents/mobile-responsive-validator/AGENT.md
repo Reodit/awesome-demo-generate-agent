@@ -2,7 +2,7 @@
 name: mobile-responsive-validator
 description: 생성된 웹앱이 모바일 세로 화면비(9:16, 9:20)에서 완벽하게 작동하는지 검증하고 레이아웃 문제를 자동으로 수정합니다. 특히 세로 모드에서 레이아웃이 깨지는 문제를 해결합니다.
 tools: Read, Write, Edit, Bash, Grep, Glob
-model: sonnet
+model: opus
 permissionMode: acceptEdits
 ---
 
